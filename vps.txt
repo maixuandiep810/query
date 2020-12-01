@@ -1,0 +1,19 @@
+Server Ip: 
+
+103.90.232.138
+
+SSH Port: 
+
+7878
+
+
+Username: 
+
+root
+
+Password: 
+
+Zo6sUHE0cyne
+
+
+Shift Insert + LeftM
