@@ -1,3 +1,5 @@
+https://superuser.com/questions/44106/is-there-a-way-to-auto-login-in-putty-with-a-password
+
 Server Ip: 
 
 103.90.232.138
@@ -13,11 +15,103 @@ root
 
 Password: 
 
-Zo6sUHE0cyne
+v7rtkSYsZ7
+a
+https://www.cyberciti.biz/faq/change-a-user-password-in-ubuntu-linux-using-passwd/
 
+a
+a
+a
+a
+https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart
 
 Shift Insert + LeftM
 
 
 
 HAHAH
+$ git config credential.helper store
+$ git push https://github.com/repo.git
+
+
+
+telnet 103.90.232.138 3306
+			
+
+
+SAIIIIIIIIIIIIIIIII
+
+CREATE USER 'root'@'103.90.232.138' IDENTIFIED BY 'rocky@123';  
+GRANT ALL PRIVILEGES ON * . * TO 'root'@'103.90.232.138';
+
+CREATE USER 'a'@'103.90.232.138' IDENTIFIED BY 'a';  
+GRANT ALL PRIVILEGES ON * . * TO 'a'@'103.90.232.138' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+
+DUNGGGGGGGGGGGGGGGGGGGG
+
+CREATE USER 'a'@'%' IDENTIFIED BY 'a';  
+GRANT ALL PRIVILEGES ON * . * TO 'a'@'%' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+https://stackoverflow.com/questions/11112555/trying-to-connect-to-mysql-and-getting-error-is-not-allowed-to-connect-to-this
+https://www.digitalocean.com/community/tutorials/how-to-allow-remote-access-to-mysql
+
+---
+
+ sudo systemctl status mysql
+ sudo systemctl restart mysql
+
+
+sudo ufw allow 3306
+
+
+https://www.digitalocean.com/community/tutorials/how-to-allow-remote-access-to-mysql
+https://www.hostinger.vn/huong-dan/lam-the-nao-de-tao-user-trong-mysql-database-gan-quyen
+https://blog.hostvn.net/chia-se/huong-dan-cai-dat-mysql-tren-ubuntu-18-04.html
+
+---
+Nho doi UTF-MB4
+https://stackoverflow.com/questions/10957238/incorrect-string-value-when-trying-to-insert-utf-8-into-mysql-via-jdbc
+---
+
+------
+PYTHON
+---
+https://linuxize.com/post/how-to-install-pip-on-ubuntu-20.04/
+https://etuannv.com/huong-dan-su-dung-moi-truong-ao-virtual-environments-trong-python/
+---
+------
+
+
+
+------
+https://www.iaspnetcore.com/blog/5d9833c672c1772b244aa228/how-to-deploying-real-world-aspnet-core-3x-on-ubuntu-1804-step-by-step
+https://stackoverflow.com/questions/51354868/run-asp-net-core-app-under-linux-on-startup
+https://askubuntu.com/questions/899750/systemd-service-remains-inactive-due-to-code-exited-status-1-failure
+
+----------------------------------
+sudo nano /etc/systemd/system/kestrel-vocabteam.service
+systemctl enable kestrel-vocabteam.service
+systemctl start kestrel-vocabteam.service
+systemctl status kestrel-vocabteam.service
+
+
+---
+
+[Unit]
+Description=Vocabteam running on Ubuntu
+
+[Service]
+WorkingDirectory=/var/itsource/vocabteam
+ExecStart=/usr/share/dotnet  var/itsource/vocabteam/bin/Debug/netcoreapp3.1/vocabteam.dll
+Restart=always
+# Restart service after 10 seconds if the dotnet service crashes:
+RestartSec=10
+SyslogIdentifier=dotnet-example
+User=www-data
+Environment=ASPNETCORE_ENVIRONMENT=Development
+	
+[Install]
+WantedBy=multi-user.target
+
+---

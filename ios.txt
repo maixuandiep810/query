@@ -1,0 +1,37 @@
+https://developer.apple.com/library/archive/documentation/Miscellaneous/Reference/UTIRef/Articles/System-DeclaredUniformTypeIdentifiers.html
+
+https://www.reddit.com/r/swift/comments/8n1zyw/how_to_use_file_provider_in_ios_document_picker/
+
+
+
+
+
+
+
+
+
+
+
+/ʌ/, /ɑ:/, /æ/, /e/, /ə/, /ɜ:/, /ɪ/, /i:/, /ɒ/, /ɔ:/, /ʊ/, /u:/, /aɪ/, /aʊ/, /eɪ/, /oʊ/, /ɔɪ/, /eə/, /ɪə/, /ʊə/, /b/, /d/, /f/, /g/, /h/, /j/, /k/, /l/, /m/, /n/, /ŋ/, /p/, /r/, /s/, /ʃ/, /t/, /tʃ/, /θ/, /ð/, /v/, /w/, /z/, /ʒ/, /dʒ/
+
+
+
+
+
+
+
+
+
+
+
+
+ Product ID:	0x12a8
+  Vendor ID:	0x05ac (Apple Inc.)
+  Version:	8.02
+  Serial Number:	a719f707b099bed6f62a222635b4bbcb39e1a882
+  Speed:	Up to 480 Mb/s
+  Manufacturer:	Apple Inc.
+  Location ID:	0x02100000 / 1
+  Current Available (mA):	500
+  Current Required (mA):	500
+  Extra Operating Current (mA):	0
